@@ -1,0 +1,22 @@
+rtf2html - a RTF to HTML conversion program
+
+This is the first cut at a RTF to HTML converter. It has several limitations
+that users should be aware of. First, unless you want to make some changes
+to tables within the source, you need to use the style sheet that is
+defined in Sample.rtf to format your Word documents. It's easiest to just
+start with Sample.rtf as your basic document and cut out what you don't
+need.
+
+rtf2html is dependent on the style numbers in the style sheet matching those
+in the conversion table in the code. This is an UGLY hack, but I really 
+didn't want to parse the style sheet. Hey, it's free.
+
+To build the code, type "make". This code should build on anything with a
+C compiler. It was written on a Mac using Think C and moved to Unix with
+no changes.
+
+Please send any comments or suggestions to cshotton@oac.hsc.uth.tmc.edu.
+
+Chuck Shotton
+Ass't Director, Academic Computing
+U. of Texas Houston Health Science Center
